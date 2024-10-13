@@ -54,3 +54,6 @@ fun ContohMap(){
     shape["Rectangle"] = 4
     println(shape)
 
+    shape.remove("Circle")
+    println(shape)
+
