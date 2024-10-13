@@ -64,3 +64,8 @@ fun ContohMap() {
     println(shapeLocked)
 }
 
+fun main(){
+    ContohList()
+    ContohSet()
+    ContohMap()
+}
