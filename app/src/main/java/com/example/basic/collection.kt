@@ -1,6 +1,6 @@
 package com.example.basic
 
-fun ContohList(){
+fun ContohList() {
     println("=== List ===")
 
     val readOnlyAbjad = listOf("A", "B", "C")
@@ -17,3 +17,7 @@ fun ContohList(){
 
     shape[0] = "Oval"
     println(shape)
+
+    val shapesLocked: List<String> = shape
+    println(shapesLocked)
+}
