@@ -11,3 +11,6 @@ fun ContohList(){
 
     shape.add("Circle")
     println(shape)
+
+    shape.remove("Triangle")
+    println(shape)
