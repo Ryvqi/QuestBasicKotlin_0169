@@ -21,3 +21,6 @@ fun ContohList() {
     val shapesLocked: List<String> = shape
     println(shapesLocked)
 }
+
+fun ContohSet(){
+    println("=== Set ===")
