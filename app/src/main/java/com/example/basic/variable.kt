@@ -7,3 +7,6 @@ fun main(){
 
     val IntValue: Int = 30
     println(IntValue)
+
+    val FloatValue: Float = 50.6f
+    println("Float: $FloatValue")
