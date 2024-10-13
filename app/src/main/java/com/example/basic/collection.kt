@@ -22,7 +22,7 @@ fun ContohList() {
     println(shapesLocked)
 }
 
-fun ContohSet(){
+fun ContohSet() {
     println("=== Set ===")
 
     val readOnlyAbjad = setOf("A", "B", "C")
@@ -36,3 +36,7 @@ fun ContohSet(){
 
     shape.remove("Circle")
     println(shape)
+
+    val shapesLocked: Set<String> = shape
+    println(shapesLocked)
+}
