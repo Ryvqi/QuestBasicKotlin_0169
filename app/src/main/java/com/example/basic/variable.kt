@@ -10,3 +10,6 @@ fun main(){
 
     val FloatValue: Float = 50.6f
     println("Float: $FloatValue")
+
+    val doublevalue: Double = 60.6
+    println("Double: $doublevalue")
