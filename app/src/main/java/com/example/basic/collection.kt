@@ -40,3 +40,8 @@ fun ContohSet() {
     val shapesLocked: Set<String> = shape
     println(shapesLocked)
 }
+
+fun ContohMap(){
+    println()
+    println("=== Map ===")
+
