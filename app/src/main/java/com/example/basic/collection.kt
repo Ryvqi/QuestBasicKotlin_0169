@@ -33,3 +33,6 @@ fun ContohSet(){
 
     shape.add("Rectangle")
     println(shape)
+
+    shape.remove("Circle")
+    println(shape)
