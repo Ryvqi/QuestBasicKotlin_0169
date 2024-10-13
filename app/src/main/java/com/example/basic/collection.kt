@@ -41,7 +41,7 @@ fun ContohSet() {
     println(shapesLocked)
 }
 
-fun ContohMap(){
+fun ContohMap() {
     println()
     println("=== Map ===")
 
@@ -56,4 +56,11 @@ fun ContohMap(){
 
     shape.remove("Circle")
     println(shape)
+
+    shape["Square"] = 5
+    println(shape)
+
+    val shapeLocked: Map<String, Int> = shape
+    println(shapeLocked)
+}
 
