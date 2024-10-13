@@ -30,3 +30,6 @@ fun ContohSet(){
 
     val shape: MutableSet<String> = mutableSetOf("Circle", "Square", "Triangle")
     println(shape)
+
+    shape.add("Rectangle")
+    println(shape)
