@@ -22,3 +22,7 @@ fun main(){
 
     var stringValue: String = "Hello World!"
     println("String: $stringValue")
+
+    stringValue = "Hello World!"
+    println("String: $stringValue")
+}
