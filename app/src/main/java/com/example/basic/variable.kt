@@ -13,3 +13,6 @@ fun main(){
 
     val doublevalue: Double = 60.6
     println("Double: $doublevalue")
+
+    val charValue: Char = 'A'
+    println("Char: $charValue")
